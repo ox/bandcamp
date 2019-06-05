@@ -63,7 +63,7 @@ type BlobTrack struct {
 }
 
 type APIItemsResponse struct {
-	Items         []Item `json:"track_list`
+	Items         []Item `json:"track_list"`
 	MoreAvailable bool   `json:"more_available"`
 	LastToken     string `json:"last_token"`
 }
